@@ -2360,7 +2360,7 @@ The **cubrid tranlist** is used to check the transaction information of the targ
 
 If you omit the [options], it displays the total information about each transaction.
 
-"cubrid tranlist demodb" outputs the similar result with "cubrid killtran -q demodb", but tranlist outputs more items; "User name" and "Host name".
+"cubrid tranlist demodb" outputs a similar result with "cubrid killtran -q demodb", but tranlist outputs more items; "User name" and "Host name".
 "cubrid tranlist -s demodb" outputs the same result with "cubrid killtran -d demodb".
 
 The following shows what information is displayed when you run "cubrid tranlist demodb".
